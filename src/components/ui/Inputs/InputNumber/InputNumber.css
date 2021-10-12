@@ -1,0 +1,11 @@
+.container-inputnumber {
+    display: flex;
+}
+
+.first-inputnumber {
+    padding: 10px;
+    border: 2px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 60px;
+}

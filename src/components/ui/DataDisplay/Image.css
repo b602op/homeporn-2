@@ -1,0 +1,14 @@
+.first-image {
+    display: flex;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.size-l {
+    width: 124px;
+    height: 124px;
+}

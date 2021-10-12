@@ -1,0 +1,7 @@
+.main-content-setting {
+  margin: 0 100px;
+}
+
+.main-content-setting .row {
+  display: flex;
+}

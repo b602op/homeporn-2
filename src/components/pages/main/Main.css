@@ -1,0 +1,21 @@
+.main-container {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.main-setting-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.main-info-massage {
+  width: 264px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  margin: 2px auto 32px;
+}

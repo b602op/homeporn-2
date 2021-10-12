@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --blue-grey-500: #7F8285;
+  --white-500: #FFFFFF;
+  --balck-500: #000000;
+  --color-bg-control: #E6E6E6;
+  --color-bg-action: #FFCC00;
+  --blue-grey-50: #F0F2F3;
+  --red-500: #FF3333;
+  --red-600: #E00000;
+  --color-bg-base: #FFFFFF;
+  --color-bg-heavy: #D9D9D9;
+  --color-border-focused: #B3B3B3;
+  --color-bg-action-hovered: #F2C200;
+  --color-bg-control-hovered: #DBDBDB;
+  --color-bg-disabled: #F2F2F2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'YS Text';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff2) format('woff2'),
+       url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff) format('woff')
+}
+@font-face {
+  font-family: 'YS Text';
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff2) format('woff2'),
+       url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff) format('woff')
+}
+@font-face {
+  font-family: 'YS Text';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff2) format('woff2'),
+       url(//yastatic.net/s3/home/fonts/ys/1/text-regular.woff) format('woff')
+}
+
+html {
+  height: 100%;                 /*For centralize settings block on main-page*/
+}
+
+body {
+  margin: 0;
+  height: 100%;                 /*For centralize settings block on main-page*/
+  align-items: center;
+  font-family: 'YS Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+#root {                         /*For centralize settings block on main-page*/
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.link-router {
+  text-decoration: none;
+}
+
+.margin-left8px {
+  margin-left: 8px;
+}
+
+.margin22px0px {
+  margin: 22px 0px;
+}
+
+.margin2px0px {
+  margin: 2px 0px;
+}
+
+.margin8px0px22px {
+  margin: 8px 0px 22px;
 }

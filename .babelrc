@@ -1,0 +1,9 @@
+{
+    "presets": [["@babel/preset-typescript", {
+        "isTSX": true,
+        "allExtensions": true
+    }],
+    ["@babel/preset-react", { "runtime": "automatic", "importSource": "@emotion/react" }],
+    "@babel/preset-env", "@emotion/babel-preset-css-prop"],
+    "plugins": ["@emotion/babel-plugin"]
+}

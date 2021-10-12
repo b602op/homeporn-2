@@ -1,0 +1,82 @@
+.first-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 36px;
+    color: var(--balck-500);
+}
+
+.second-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--blue-grey-500);
+    letter-spacing: 0.25px;
+}
+
+.thrid-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 125%;
+    color: var(--balck-500);
+}
+
+.thrid-info-header {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--balck-500);
+}
+
+.fourth-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--balck-500);
+}
+
+.sixth-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--blue-grey-500);
+}
+
+.seventh-info {
+    font-family: 'YS Text';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.06px;
+    color: var(--balck-500);
+}
+
+.info-align-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.info-align-left {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.info-align-right {
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}

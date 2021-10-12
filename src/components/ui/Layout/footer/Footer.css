@@ -1,0 +1,21 @@
+.footer {
+    background: var(--blue-grey-50);
+    padding: 0 100px;
+    display: flex;
+}
+
+.footer .left-part {
+    display: flex;
+    justify-content: left;
+    flex-grow: 1;
+}
+
+.footer .left-part .item {
+    margin-left: 12px;
+}
+
+.footer .right-part {
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+}

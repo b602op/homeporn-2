@@ -1,0 +1,28 @@
+.first-btn {
+    padding: 0 20px;
+    height: 36px;
+    border-radius: 4px;
+    background: var(--color-bg-action);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.second-btn {
+    border: none;
+    cursor: pointer;
+}
+
+.thrid-btn {
+    border: none;
+    background-color: var(--color-bg-control);
+    height: 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 0 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
