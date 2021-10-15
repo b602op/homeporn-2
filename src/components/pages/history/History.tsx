@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 import {
   Header, Card, Footer,
@@ -8,22 +9,23 @@ import { OptsType } from 'src/types/types';
 import './History.css';
 
 type PagePropTypes = {
-    options: OptsType[],
 }
 
-const Page: React.FC<PagePropTypes> = ({ options = [] }: PagePropTypes) => {
+const Page: React.FC<PagePropTypes> = () => {
+  const options = useSelector(state => (state as any).changeOptions.options);
+
   const optionContent = options.map((option: OptsType) => <Card option={option} />)
 
-  console.log(optionContent, ' optionContent?')
+  // console.log(options, ' options?')
 
   return (
     <>
       <Header leftInfo="philip1967/my-awesome-repo" />
         <main className="history-main">
-            {/* <div className="history-cards">
+            <div className="history-cards">
                 {optionContent}
-            </div> */}
-            todo
+            </div>
+            {/* todo */}
         </main>
       <Footer />
     </>

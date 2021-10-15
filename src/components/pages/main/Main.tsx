@@ -1,4 +1,6 @@
 import React from 'react';
+import { Router, Route, useHistory } from 'react-router';
+
 import { Button, Image, Info, Footer } from 'src/components/ui';
 import tools from '../../../static/tools.svg';
 import { Header } from 'src/components/ui';
@@ -6,8 +8,9 @@ import { Header } from 'src/components/ui';
 import './Main.css';
 
 const Page: React.FC = () => {
+  const history = useHistory();
   const openSetting = () => {
-    document.location.href = '/settings'
+    history.push('/settings');
   }
 
   return (

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { useHistory } from "react-router-dom";
 
 import {
   Button, Info,
@@ -25,11 +26,14 @@ const Page: React.FC<PageProps> = ({ options }: PageProps) => {
   const [opts, setOpts] = useState<OptsType>(options || defaultOpts);
 
   const dispatch = useDispatch();
+  const history = useHistory();
 
   const handleSave = () => {
     dispatch({ type: 'CHANGE_OPTIONS', payload: opts });
     
     setOpts(defaultOpts);
+
+    history.push('/history');
   }
 
   const handleCancel = () => {
