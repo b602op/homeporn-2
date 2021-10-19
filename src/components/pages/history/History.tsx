@@ -14,7 +14,7 @@ type PagePropTypes = {
 const Page: React.FC<PagePropTypes> = () => {
   const options = useSelector(state => (state as any).changeOptions.options);
 
-  const optionContent = options.map((option: OptsType) => <Card option={option} />)
+  const optionContent = [{time: 100, name: 'adsfasdf', mainBranch: 'ageaeg', command: 'asdfasd'},options].map((option: OptsType) => <Card option={option} />)
 
   // console.log(options, ' options?')
 

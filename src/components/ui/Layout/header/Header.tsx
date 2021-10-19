@@ -1,6 +1,7 @@
 import { Info, Button } from 'src/components/ui'
 import gears from 'src/static/gears.svg'
 import { Link } from 'react-router-dom';
+import { useHistory } from "react-router-dom";
 
 import './Header.css'
 
@@ -10,9 +11,12 @@ type HeaderProps = {
 }
 
 export const Header: React.FC<HeaderProps> = ({ leftInfo, isSetting = true }: HeaderProps) => {
+    const history = useHistory();
+
     const handleClick = () => {
-        document.location.href = '/settings';
+        history.push('/settings')
     }
+
     return (
         <div className="header-container">
             <div className="header-left">

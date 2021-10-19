@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route, useHistory } from 'react-router';
+import { useHistory } from 'react-router';
 
 import { Button, Image, Info, Footer } from 'src/components/ui';
 import tools from '../../../static/tools.svg';
